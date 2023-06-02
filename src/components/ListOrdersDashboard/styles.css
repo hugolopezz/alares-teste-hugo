@@ -1,0 +1,62 @@
+.orders-block {
+    display: flex;
+    justify-content: space-around;
+}
+.list-orders{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 20px;
+}
+.list-orders .in-progress{
+    font-size: 32px;
+    color: rgb(255, 136, 0);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.list-orders .done{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(8, 247, 83);
+    margin-bottom: 16px;
+}
+
+.orders-dashboard {
+    border: solid 1px #5149FF;
+    border-radius: 20px;
+    width: 403px;
+    height: 386px;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+    margin-bottom: 50px;
+    background: #fcfcfc;
+}
+
+.orders-dashboard div{
+    gap: 10px;
+    display: flex;
+    font-weight: 700;
+}
+.orders-dashboard div span{
+    font-weight: 500;
+    color: #5149FF;
+}
+.orders-buttons .order-button {
+    background-color: #00FE91;
+    width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    border: solid 1px #5149FF;
+    color: #5149FF;
+    font-size: 16px;
+    box-shadow: inset 0 0 0 4px #fff;
+    margin-top: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

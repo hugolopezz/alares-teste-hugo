@@ -1,0 +1,121 @@
+.plan {
+    border: solid 1px #5149FF;
+    border-radius: 20px;
+    width: 303px;
+    height: 546px;
+    font-size: 16px;
+    color: #5149FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    position: relative;
+}
+
+.plan.active .bestPlan {
+    position: absolute;
+    top: -20px;
+    height: 30px;
+    border: solid 1px #5149FF;
+    width: 90%;
+    border-radius: 25px;
+    text-align: center;
+    color: #5149FF;
+    background: #fff;
+}
+.plan.false .services .logoService{
+    border: solid 2px #81FBCC;
+    border-radius: 10px;
+}
+
+.plan.active {
+    color: #fff;
+    background-color: #5149FF;
+}
+.plan.active .plan-link {
+    color: #fff;
+}
+
+.plan.active .plan-button {
+    background-color: #00FE91;
+    width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    border: solid 1px #fff;
+    color: #5149FF;
+    font-size: 16px;
+    box-shadow: inset 0 0 0 4px #5149FF;
+}
+.plan .gigas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.plan .gigas .gigas-number {
+    font-size: 36px;
+}
+.plan .gigas .gigas-text {
+    font-size: 24px;
+    color: #2BFAAF;
+}
+
+.plan .plan-benefits {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.plan .services {
+    display: flex;
+    gap: 5px;
+    margin-top: 18px;
+    margin-bottom: 26px;
+}
+.plan .plan-price {
+    color: #1BD9C7;
+}
+
+.plan .plan-price .plan-price-number{
+    display: flex;
+    gap: 5px;
+}
+.plan .plan-price .plan-text-info {
+    text-align: center;
+    display: block;
+}
+
+.plan .plan-price .plan-price-number .plan-text-real {
+    font-size: 16px;
+    position: relative;
+    top: -8px;
+}
+
+.plan .plan-price .plan-price-number .integer-part{
+    font-size: 60px;
+}
+.plan .plan-price .plan-price-number .decimal-part{
+    display: flex;
+    flex-direction: column;
+    height: 45px;
+    line-height: 20px;
+}
+.plan .plan-price .plan-price-number .decimal-part span{
+    text-align: center;
+}
+
+.plan .plan-link {
+    color: #5149FF;
+    text-decoration: underline;
+}
+.plan-button {
+    background-color: #00FE91;
+    width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    border: solid 1px #5149FF;
+    color: #5149FF;
+    font-size: 16px;
+    box-shadow: inset 0 0 0 4px #fff;
+    margin-top: 18px;
+    cursor: pointer;
+}

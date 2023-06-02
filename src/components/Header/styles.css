@@ -1,0 +1,29 @@
+.header-main {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #ccc;
+    flex-direction: column;
+    min-height: 90px;
+    align-items: center;
+}
+
+.header-main img {
+    width: 200px;
+}
+
+.header-main nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.header-main nav ul li a{
+    font-size: 18px;
+    color: #FFF;
+    border: solid 1px #5149FF;
+    background-color: #5149FF;
+    padding: 8px 14px;
+    border-radius: 15px;
+}

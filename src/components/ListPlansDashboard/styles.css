@@ -1,0 +1,14 @@
+.plan-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.plan-buttons .plan-button{
+    background-color: #00FE91;
+    width: 125px;
+}
+
+.plan-buttons .plan-button,.plan.active .plan-buttons .plan-button{
+    background-color: #00FE91;
+    width: 125px;
+}
