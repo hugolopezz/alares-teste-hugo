@@ -8,7 +8,7 @@ Este projeto utiliza o React Redux para gerenciar o estado da aplicação, permi
 2. Execute o comando `npm start` para iniciar a aplicação.
 
 ## Tecnologias utilizadas
-
+Html, Css, React
 React Redux: uma biblioteca que integra o React com o Redux, facilitando o gerenciamento do estado global da aplicação no React.
 
 ### Funcionalidades
